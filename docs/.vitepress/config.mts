@@ -7,7 +7,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/logo.png",
+    logo: "public/logo.png",
     siteTitle: false,
     nav: [
       { text: "Home", link: "/" },
