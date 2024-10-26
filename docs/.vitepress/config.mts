@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "KCode Portfolio",
+  title: "KCode",
   description: "Portfolio of Kevin Curruchich",
 
   themeConfig: {

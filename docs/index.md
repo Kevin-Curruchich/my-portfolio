@@ -15,7 +15,7 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
-
+    
 features:
   - icon: 🚀
     title: Vue JS
