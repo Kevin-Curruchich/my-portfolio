@@ -4,7 +4,6 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "KCode",
   description: "Portfolio of Kevin Curruchich",
-
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "public/logo.png",
@@ -36,4 +35,5 @@ export default defineConfig({
       copyright: "© 2021 Kevin Curruchich",
     },
   },
+  base: '/my-portfolio'
 });
