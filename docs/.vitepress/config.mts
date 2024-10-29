@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Portfolio of Kevin Curruchich",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "public/logo.png",
+    logo: "/logo.png",
     siteTitle: false,
     nav: [
       { text: "Home", link: "/" },
@@ -32,8 +32,9 @@ export default defineConfig({
 
     footer: {
       message: "Made with ❤️ by Kevin Curruchich",
-      copyright: "© 2021 Kevin Curruchich",
+      copyright: `© ${new Date().getFullYear()} Kevin Curruchich`,
     },
   },
-  base: '/my-portfolio'
+  srcDir: '../docs',
+  base: 'my-portfolio'
 });

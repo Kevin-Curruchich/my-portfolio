@@ -7,7 +7,7 @@ hero:
   text: "Frontend Developer"
   # tagline: My great project tagline and add mre text
   image:
-    src: public/my-photo.png
+    src: /my-photo.png
   actions:
     - theme: brand
       text: Markdown Examples
