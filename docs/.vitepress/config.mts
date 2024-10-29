@@ -36,5 +36,5 @@ export default defineConfig({
     },
   },
   srcDir: '../docs',
-  base: 'my-portfolio'
+  base: '/my-portfolio'
 });
